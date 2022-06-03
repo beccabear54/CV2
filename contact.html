@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Info</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <img src="rebecca2.jpg" alt="contact picture" width="400" height="250">
+    <hr size="3">
+    <h1>The Deets</h1>
+    <br>
+    <table>
+      <thead>
+        <th>Contact Information</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Email:</strong> </td>
+          <td>palermo.reb@gmail.com</td>
+        </tr>
+        <tr>
+          <td><strong>Insta:</strong></td>
+          <td><a href="https://www.instagram.com/becca.palermo/?hl=en"></a>becca.palermo</td>
+        </tr>
+        <tr>
+          <td><strong>Phone:</strong> </td>
+          <td>nope, nope</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <hr size="2">
+    <br>
+    <form action="Thankspage.html" method="post"> <!--for now no mailto since it's not necessarily a legit website...yet-->
+      <label for="name">Name:</label>
+      <input type="text" name="Name" value=""> <br>
+      <label for="contact email">Email:</label>
+      <input type="email" name="Email" value=""> <br>
+      <label for="project info">Project Information:</label> <br>
+      <textarea name="project info" rows="4" cols="40"></textarea> <br>
+      <label for="Documents">Documents About Your Project</label>
+      <input type="file" name="Files" value="" accept="application/pdf, application/msword, application/msexcel, .docx"> <br>
+      <label for="Completion Timeframe">Desired Completion Date for Project:</label>
+      <input type="date" name="Project date" value=""> <br> <br>
+      <input type="submit" name="submit form" value="Submit">
+    </form>
+  </body>
+</html>
